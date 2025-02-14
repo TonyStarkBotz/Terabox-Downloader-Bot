@@ -4,9 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-API_ID = int(os.getenv("API_ID", "YOUR_API_ID"))
-API_HASH = os.getenv("API_HASH", "YOUR_API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN")
+API_ID = int(os.getenv("API_ID", "27064328"))
+API_HASH = os.getenv("API_HASH", "7be1392c2fe5ebf4fc3228706fbfb504")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8150594528:AAGbXespT08i6YU0d4_ZUDIkF_8m9NsKNik")
 
 app = Client("terabox_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
@@ -34,7 +34,7 @@ def start(client, message):
 "
         "Send a Terabox video link, and I'll fetch it for you.",
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Support", url="https://t.me/YourSupportGroup")]
+            [InlineKeyboardButton("Support", url="https://t.me/TonyStarkBotzXSupport")]
         ])
     )
 
