@@ -40,7 +40,7 @@ def start(client, message):
 @app.on_message(filters.command("download"))
 def download_video(client, message):
     if len(message.command) < 2:
-        message.reply_text("❌ Please provide a Terabox video URL.
+        message.reply_text("❌ Please provide a Terabox video URL."
 Example:
 `/download <link>`")
         return
