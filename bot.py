@@ -30,8 +30,7 @@ def get_terabox_video_links(url):
 @app.on_message(filters.command("start"))
 def start(client, message):
     message.reply_text(
-        "👋 Welcome to **Terabox Video Downloader Bot**!
-"
+        "👋 Welcome to **Terabox Video Downloader Bot**!"
         "Send a Terabox video link, and I'll fetch it for you.",
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton("Support", url="https://t.me/TonyStarkBotzXSupport")]
